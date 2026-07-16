@@ -78,7 +78,7 @@
     ],
     "stop": [
       {
-        "command": "msg * stop"
+        "command": "msg * stopHook"
       }
     ],
     "afterAgentResponse": [
