@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "msg * sessionStart"
+      }
+    ],
+    "sessionEnd": [
+      {
+        "command": "msg * sessionEnd"
+      }
+    ],
+    "preToolUse": [
+      {
+        "command": "msg * preToolUse"
+      }
+    ],
+    "postToolUse": [
+      {
+        "command": "msg * postToolUse"
+      }
+    ],
+    "postToolUseFailure": [
+      {
+        "command": "msg * postToolUseFailure"
+      }
+    ],
+    "subagentStart": [
+      {
+        "command": "msg * subagentStart"
+      }
+    ],
+    "subagentStop": [
+      {
+        "command": "msg * subagentStop"
+      }
+    ],
+    "beforeShellExecution": [
+      {
+        "command": "msg * beforeShellExecution"
+      }
+    ],
+    "afterShellExecution": [
+      {
+        "command": "msg * afterShellExecution"
+      }
+    ],
+    "beforeMCPExecution": [
+      {
+        "command": "msg * beforeMCPExecution"
+      }
+    ],
+    "afterMCPExecution": [
+      {
+        "command": "msg * afterMCPExecution"
+      }
+    ],
+    "beforeReadFile": [
+      {
+        "command": "msg * beforeReadFile"
+      }
+    ],
+    "afterFileEdit": [
+      {
+        "command": "msg * afterFileEdit"
+      }
+    ],
+    "beforeSubmitPrompt": [
+      {
+        "command": "msg * beforeSubmitPrompt"
+      }
+    ],
+    "preCompact": [
+      {
+        "command": "msg * preCompact"
+      }
+    ],
+    "stop": [
+      {
+        "command": "msg * stop"
+      }
+    ],
+    "afterAgentResponse": [
+      {
+        "command": "msg * afterAgentResponse"
+      }
+    ],
+    "afterAgentThought": [
+      {
+        "command": "msg * afterAgentThought"
+      }
+    ],
+    "beforeTabFileRead": [
+      {
+        "command": "msg * beforeTabFileRead"
+      }
+    ],
+    "afterTabFileEdit": [
+      {
+        "command": "msg * afterTabFileEdit"
+      }
+    ]
+  }
+}
